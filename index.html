@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Tooth: Homepage</title>
+    <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background:url(./images/backgroundcookie.jfif);
+      background-size: cover;
+
+    }
+
+    .header
+    {
+      width:100%;
+      height:100vh;
+    }
+
+    .logo {
+      position: relative;
+    }
+
+    .navbar
+    {
+      max-width: 1200px;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      padding-top: 30px;
+    }
+
+    .navbar nav ul li
+    {
+      list-style: none;
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    nav ul li a
+    {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      padding: 5px 2px;
+    }
+
+    nav ul li a:hover {
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.5s ease;
+    }
+
+    .box
+    {
+      background-color: black;
+      width: 100%;
+      height: 80px;
+    }
+
+    nav ul li a.active
+    {
+      color: white;
+      font-weight: bold;
+    }
+
+    /* header content ends here */
+
+    .content h4
+    {
+      color: white;
+      font-family:monospace;
+      padding-left: 10%;
+      padding-top: 15%;
+      font-size: 40px;
+    }
+
+    .content p
+    {
+      width: 50%;
+      text-align: justify;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding-left: 10%;
+      padding-top: 20px;
+      font-size: 20px;
+    }
+
+    .ordernow
+    {
+      color: white;
+      background-color: black;
+      border: 3px solid;
+      border-color: white;
+      text-align: center;
+      width: 160px;
+      padding: 15px;
+      margin-left: 10%;
+    }
+
+    .ordernow a
+    {
+      text-decoration: none;
+      color: white;
+      font-family: monospace;
+      letter-spacing: 2px;
+      font-size: 18px;
+    }
+
+    .ordernow a:hover {
+      color: black;
+      letter-spacing: 5px;
+      width: 200px;
+      transition: 0.5s ease;
+    }
+
+    .ordernow:hover {
+      background-color: white;
+      width: 200px;
+      transition: 0.5s ease;
+    }
+
+    .staff-login {
+      color: white;
+      float: right;
+      margin-right: 10%;
+      width: 200px;
+    }
+
+    .staff-login a {
+      text-decoration: none;
+      color: white;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    .staff-login a:hover {
+      text-decoration: underline;
+      transition: 0.5s ease;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="box">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="./images/logo.png" height="30"></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">HOME</a></li>
+              <li><a href="login.php">MENU</a></li>
+              <li><a href="login.php">LOGIN</a></li>
+              <li><a href="contact.html">CONTACTS</a></li>
+              <li><a href="login.php"><b><u>ORDER NOW!</u></b></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="content">
+        <h4>“Craving for something sweet? <br>
+            <span style="font-family:Georgia, 'Times New Roman', Times, serif;"><i>Sweet Tooth</i></span> is here for you!”
+        </h4>
+        <p>
+          <span style="font-family:Georgia, 'Times New Roman', Times, serif;"><b>Sweet Tooth</b></span> was created for the sole purpose of 
+          satisfying interested customers with scrumptious 
+          delicacies baked by their pastry chefs. There are  
+          a variety of choices to choose from the menu,
+          including ice cream, chocolate, cakes, cupcakes,
+          pies, and macaroons.</sup>
+        </p>
+        <br>
+        <br>
+      </div>
+
+      <div class="ordernow">
+        <a href="login.php"><p><b>ORDER NOW.</b></p></a>
+      </div>
+
+      <div class="staff-login">
+        <a href="staff_login.php">Log in as staff >></a>
+      </div>
+
+    </div>
+  </body>
+</html>
