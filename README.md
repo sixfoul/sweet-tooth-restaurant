@@ -4,6 +4,8 @@ This project was intended for a project for the Web Application Development cour
 XAMPP was used as a local host, with elements of PHP, HTML, CSS, and Javascript implemented into the program.
 The images in this project were not commercially used.
 
+The main page of the program is the index file.
+
 The functional requirements within the program are as such:
 <li> User Information </li> 
 The website or system shall add or retrieve user information. For
